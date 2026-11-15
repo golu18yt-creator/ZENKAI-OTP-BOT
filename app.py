@@ -9,6 +9,8 @@ import threading
 import os
 from flask import Flask
 
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__))
+
 from bot.main import run_bot
 
 # 1. Simple Flask HTTP server for Render deployment and port binding
